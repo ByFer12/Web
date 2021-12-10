@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro</h1>
+    
+    <form  class="form">
+        <label for="text" class="lab1">Nombre:</label>
+        <input  type="text" class="corr" id="name" placeholder="Escriba su Nombre">
+        <br>
+        <label for="num" class="lab2 ">Edad:</label>
+        <input type="number" class="cont" id="num" placeholder="Edad">
+        <br>
+        <label for="sexo" class="lab3">Sexo:</label> 
+        <select  id="Sexo">
+            <option value=""></option>
+            <option disabled="" selected>Elige una opcion</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+        <br>
+        <button type="button" class="btn" onclick="captura()">Guardar</button>
+    </form>
+    <script type="text/javascript" src="logica.js"></script>
+</body>
+</html>
