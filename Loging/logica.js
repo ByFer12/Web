@@ -3,7 +3,7 @@ function captura(){
     var pass=document.getElementById("contraseña").value;
     if(email==""){
     alert("El correo es obligatorio");
-    document.getElementById("contraseña").focus();
+    document.getElementById("correo").focus();
  }else {if(pass==""){
      alert("La contraseña es oblgatorio");
      document.getElementById("contraseña").focus();

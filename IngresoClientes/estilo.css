@@ -6,24 +6,23 @@ h1{
     color: turquoise;
 }
 body{
-    background-image: url("Imagenes/Fondo1.webp");
+    background-image: url("Imagenes/Fondo.png");
 }
 form{
-    background-image: url("Imagenes/Fondo.jpg");    
+    background-size:cover ;    
     padding: 20px;
-    margin:50px 400px;
+    margin: 20px 350px;
     align-content: center;
     border-radius: 30px;
-    padding: 50px 60px;
+ 
 }
-form:hover{
-    background-image: radial-gradient(rgb(102, 100, 68),     rgb(52, 88, 41));    
+/**form:hover{
+    background-image: radial-gradient(rgb(51, 51, 46),     rgb(187, 190, 185));    
     padding: 20px;
-    margin: 50px 400px;
+    margin: 20px 350px;
     align-content: center;
     border-radius: 30px;
-    padding: 50px 60px;
-}
+}**/
 .corr{
     background-color: antiquewhite;
     margin: 50px 20px;
@@ -36,23 +35,41 @@ form:hover{
     font-size: 30px;
 }
 .lab1{
-    font-size: 25px;
-    color:rgb(228, 230, 236);
-    background-color: rgb(8, 8, 8);
+    font-size: 20px;
+    color:rgb(31, 35, 46);
+    background-color: rgb(103, 158, 127);
     padding: 8px 8px;
     border-radius: 5px;
     margin-left: 10px;
 
 }
 .lab2{
-    font-size: 25px;
-    color:rgb(222, 231, 228);
-    background-color: rgb(8, 8, 8);
+    font-size: 20px;
+    color:rgb(24, 43, 36);
+    background-color: rgb(108, 120, 187);
     padding: 8px 8px;
     border-radius: 5px;
     margin-left: 10px;
 
 }
+.lab3{
+    font-size: 20px;
+    color:rgb(31, 35, 46);
+    background-color: rgb(103, 158, 127);
+    padding: 8px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+     }
+
+     .lab4{
+        font-size: 20px;
+        color:rgb(24, 43, 36);
+        background-color: rgb(108, 120, 187);
+        padding: 8px 8px;
+        border-radius: 5px;
+        margin-left: 10px;
+    
+    }
 .btn{
 
     background-color: seashell;
@@ -67,15 +84,4 @@ form:hover{
     margin: 30px 400px;
     font-size: 30px;
     color: slategray;
-}
-.lab3{
-    background-color: black;
-    color: burlywood;
-    font-size: 25px;
-    margin: 50px 10px;  
-}
-select{
-    background-color: tomato;
-    margin: 50px 50px;
-    font-size: 25px;
 }
